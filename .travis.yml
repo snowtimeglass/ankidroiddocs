@@ -1,3 +1,7 @@
+sudo: false
 language: ruby
 install: gem install asciidoctor
 script: "./tools/convert.sh"
+notifications:
+  email:
+    - alexander.grueneberg@googlemail.com
